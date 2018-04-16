@@ -4,6 +4,11 @@
 <dict>
 	<key>restaurantImages</key>
 	<array>
+		<string>koaPancakeHouse</string>
+		<string>plantationTavern</string>
+		<string>hoHoChineseCuisine</string>
+		<string>l&amp;LHawaiianBarbecue</string>
+		<string>pho808</string>
 		<string>kapoleiKalapawai</string>
 	</array>
 </dict>

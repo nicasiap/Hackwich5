@@ -1,26 +1,22 @@
 //
-//  detailViewController.swift
+//  mapsViewController.swift
 //  Hackwich5
 //
-//  Created by CM Student on 3/19/18.
+//  Created by CM Student on 4/16/18.
 //  Copyright © 2018 CM Student. All rights reserved.
 //
 
 import UIKit
 
-class detailViewController: UIViewController {
+class mapsViewController: UIViewController {
 
-    @IBOutlet weak var imageView: UIImageView!
+    @IBOutlet var mapsViewLabel: UIView!
     
-    var imagePass: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        if let imageName = imagePass {
-            imageView.image = UIImage(named: imageName)
-        }
     }
 
     override func didReceiveMemoryWarning() {
